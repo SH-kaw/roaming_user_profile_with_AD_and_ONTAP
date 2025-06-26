@@ -1,2 +1,2 @@
 # roaming_user_profile_with_AD_and_ONTAP
-for qiita
+本コードはQiita記事参考用となります。コードの無断利用・転載はご遠慮ください。
