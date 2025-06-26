@@ -1,5 +1,5 @@
 #dev用定義
-#
+#AWS
 aws_region                = "xxxxxxx"
 aws_profile               = "xxxxxxx"
 
