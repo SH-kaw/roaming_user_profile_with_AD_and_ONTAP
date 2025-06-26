@@ -1,2 +1,2 @@
-# oaming_user_profile_with_AD_and_ONTAP
+# roaming_user_profile_with_AD_and_ONTAP
 for qiita
