@@ -1,4 +1,4 @@
-#adジュール読み込み
+#adモジュール読み込み
 module "ad" {
   source = "../modules/ad"
 
@@ -27,7 +27,6 @@ module "network" {
 }
 
 #ontapモジュール読み込み
-/*
 module "ontap" {
   source = "../modules/ontap"
 
@@ -44,4 +43,3 @@ module "ontap" {
   ha_pairs            = var.ha_pairs
   throughput_capacity = var.throughput_capacity
 }
-*/

@@ -120,7 +120,7 @@ resource "aws_vpc_security_group_egress_rule" "ontap_allow_all_egress" {
   description       = "Allow all outbound traffic"
 }
 
-#FSx for ONTAPを作成
+#FSx for NetApp ONTAPを作成
 resource "aws_fsx_ontap_file_system" "fsx_ontap" {
   storage_capacity                = var.storage_capacity
   subnet_ids                      = [var.private_subnet_id]

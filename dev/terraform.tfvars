@@ -1,4 +1,8 @@
 #dev用定義
+#
+aws_region                = "xxxxxxx"
+aws_profile               = "xxxxxxx"
+
 #ontap
 fsx_admin_password        = "xxxxxxxxx"        #fsx_adminユーザーのパスワードを指定
 ontap_sg_cidr             = "xx.xx.xx.xx/xx"   #ONTAPへのアクセスを許可するセグメントを指定

@@ -2,12 +2,14 @@
 
 #リージョン 
 variable "aws_region" {
-  default = "xxxxxxxxx" 
+  description = "AWS Region Name"
+  type        = string
 }
 
 #プロファイル 
 variable "aws_profile" {
-  default = "xxxxxxxx" 
+  description = "AWS Profile Name"
+  type        = string
 }
 
 ##adモジュールから呼び出し
